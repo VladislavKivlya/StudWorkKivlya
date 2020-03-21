@@ -1,9 +1,8 @@
 //2
+const regular = /https?:\/\//;
 let site = 'https://github.com';
-alert(/https?:\/\//.test(site));
+alert(regular.test(site));
 //4
+const regular = /\.jpe?g/;
 let img = 'a.jpeg';
-alert(/\.jpe?g/.test(img));
-// 6
-let num = "1634567";
-alert(/\d{12}/.test(num));
+alert(regular.test(img));
