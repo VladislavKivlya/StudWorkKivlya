@@ -1,3 +1,5 @@
 let str = 'sss site.ru zzz site.com kkk';
-let res = str.replace(/(\w+\.ru|\w+\.com)/g, '<a href = "http://$&">$&</a>');
+let str1 = '<a href = "http://$&">$&</a>';
+const regular = /(\w+\.ru|\w+\.com)/g;
+let res = str.replace(regular, str1);
 alert(res);
