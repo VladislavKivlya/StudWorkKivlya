@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>task7</title>
+  </head>
+  <body>
+    <div id="app">
+    	<input type="checkbox" v-model="lang" value="html">
+    	<input type="checkbox" v-model="lang" value="css">
+    	<input type="checkbox" v-model="lang" value="js">
+    	<ul>
+        <li v-for = "value in lang">{{value}}</li>
+      </ul>
+    </div>
+
+
+    <script type="text/javascript" src="vue.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

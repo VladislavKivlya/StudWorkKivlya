@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>task2</title>
+  </head>
+  <body>
+    <div id = "app">
+      <textarea v-model = "text"></textarea>
+      <ul>
+        <li v-for = "word in mas">{{word}}</li>
+      </ul>
+      <button v-on:click="createMas">Создать массив</button>
+    </div>
+
+
+    <script type="text/javascript" src="vue.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

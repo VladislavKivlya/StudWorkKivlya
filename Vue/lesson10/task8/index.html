@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>task8</title>
+  </head>
+  <body>
+    <div id="app">
+      <p>Какой язык для вас родной: </p>
+    	<input name="radio" type="radio" v-model="type" value="ru"> русский
+    	<input name="radio" type="radio" v-model="type" value="en"> английский
+    	<input name="radio" type="radio" v-model="type" value="uz"> узбекский
+    	<p>Вы выбрали: {{ type }}</p>
+    </div>
+
+
+    <script type="text/javascript" src="vue.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
